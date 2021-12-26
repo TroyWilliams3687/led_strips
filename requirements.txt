@@ -1,0 +1,36 @@
+# ------------
+# App Dependencies
+
+# These are dependencies for the repo so we can run the app in the environment.
+# They should be installed when we install the app. They are strictly required
+# here but offer another form of documentation.
+
+matplotlib
+numpy
+pandas
+scipy
+sympy
+
+
+# ----------
+# Jupyter Notebooks
+
+jupyter
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+jupyterlab
+ipympl
+
+# ------------
+# Custom Repo
+
+# custom git repos would be installed here. You can use the following syntax to
+# install packages from git repos.
+
+# NOTE: For GitHub, it will provide an URL with
+# colon separting the github.com from the user name. You need to replace that
+# with a slash for things to work properly
+
+# hindsight @ git+ssh://git@github.com/TroyWilliams3687/hindsight.git
+
+bluebill @ git+ssh://troy@server.bluebill.net:10000/home/troy/repositories/shared/bluebill.common.git
