@@ -1,11 +1,11 @@
 # -----------
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2021 Troy Williams
+# Copyright (c) 2022 Troy Williams
 
-# uuid       =
+# uuid       = a65baace-238c-11ec-811e-5d4d4c500ca4
 # author     = Troy Williams
 # email      = troy.williams@bluebill.net
-# date       =
+# date       = 2021-10-02
 # -----------
 
 # -----------
@@ -38,7 +38,7 @@
 # require. Please make of copy of that, rename it and update the variables. Also
 # add it to the .gitignore file.
 
-include Makefile.env
+include ./mf_support/Makefile.env
 
 # -----------
 # Optional Includes
@@ -47,9 +47,8 @@ include Makefile.env
 # copying them from the repo template repository and adding the proper includes
 # here.
 
-include Makefile.python
-include Makefile.python.build
-include Makefile.jupyter
+include ./mf_support/Makefile.python
+include ./mf_support/Makefile.python.build
 
 
 # -----
